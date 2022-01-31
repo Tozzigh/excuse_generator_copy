@@ -1,26 +1,43 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
+# Excuse Generator
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
+> By Keili Rosales
 
-The most basic boilerplate for any 4Geeks Academy student using the [gitpod.io](gitpod.io) coding editor.
+## Objective
 
-[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/assets/hello-html-intro.png?raw=true)](https://youtu.be/dfbDCMu_p-0)
+First Javascript exercise. 🙌
 
-## What to do next?
+Starting from the data provided by the teacher, the main idea of this exercise is to create JavaScript functions, which must comply with a series of rules for their realization: 
+- Use exclusively imperative functional programming.
+- The use of objects is prohibited.
+- Documented.
+- Separated into functions.
+- Writing camelCase.
+- Variables and names in English. 
 
-Create an `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+#### Functions approach.
 
-```sh
-$ pip3 install flask && python3 server.py
+##### Array data
+```JavaScript
+let surnames = ['10', 'juan', '@12', null, 'antonioPerezDelCarmen', 'abcdefghtioiasoisdjads', 'Manolo', 'Perez', 'Soledad'];
+let excuses = ['OMG?', 'What’s going on?', 'How much is it?', '18', null, undefined, function () { }];
+let names2 = ['Jeferson', 'Matilda', 'R@fael', '1van', 'Pep3', 'Loquesea', 'Fel1berto', 'Pepit@', 'D@M', 'Pep3'];
 ```
+- The function **generateRandom** generates a random excuse with the three given arrays.
+- The function **letterCounter** counts the number of letter repetitions in each array.
+- The **deleteReplay** function deletes the repetitions in an array and returns the array without the repetition.
+- The **reverseData** function inverts all values in the array.
 
-- You can create as many HTML files as you want
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+## Application
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+1. Run the project using: `node index.js`.
+2. And check the applied functions.
+
+## Technologies
+
+- Javascript
+
+## Contributions
+
+I'd love to get your appreciation or report on the code at https://github.com/keikeka/Excuse-Generator
+
+Thank you so much!
