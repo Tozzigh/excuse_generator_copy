@@ -1,4 +1,4 @@
-// EXERCISES//
+// EXERCISES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//
 // Array data //
 let surnames = ['10', 'juan', '@12', null, 'antonioPerezDelCarmen', 'abcdefghtioiasoisdjads', 'Manolo', 'Perez', 'Soledad'];
 let excuses = ['OMG?', 'What’s going on?', 'How much is it?', '18', null, undefined, function () { }];
